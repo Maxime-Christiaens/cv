@@ -35,8 +35,8 @@
 }
 
 .header .myName {
-  margin-top: 20vh;
-  margin-bottom: 10vh;
+  margin-top: 22vh;
+  margin-bottom: 12vh;
   background-color: rgba(0, 0, 0, 0) !important;
 }
 
@@ -55,7 +55,13 @@
   font-weight: bold !important;
 }
 
-.test {
-  background-color: rgba(0, 0, 0, 0) !important;
+.carousel-slider .carousel-item {
+  height: 67.1vh !important;
+}
+
+.carousel-slider .carousel-item h2 {
+  font-size: 6vh !important;
+  font-weight: bold !important;
+  padding-top: 5vh;
 }
 /*# sourceMappingURL=style.css.map */
