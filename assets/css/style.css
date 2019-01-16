@@ -1,6 +1,9 @@
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
 .parallax-container {
   height: 80vh !important;
-  text-align: center;
 }
 
 .parallax-container nav {
@@ -8,9 +11,34 @@
   background-color: rgba(0, 0, 0, 0) !important;
   -webkit-box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0) !important;
           box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0) !important;
+  z-index: 99999;
 }
 
 .parallax-container nav a {
   color: black;
+}
+
+.header {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0) !important;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100vw;
+}
+
+.header .myName {
+  margin-top: 15vh;
+  margin-bottom: 10vh;
+  background-color: rgba(0, 0, 0, 0) !important;
+}
+
+.header .myJob {
+  margin-top: 0vh;
+  background-color: rgba(0, 0, 0, 0) !important;
+}
+
+.test {
+  background-color: rgba(0, 0, 0, 0) !important;
 }
 /*# sourceMappingURL=style.css.map */

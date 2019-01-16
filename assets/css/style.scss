@@ -1,15 +1,39 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
 .parallax-container{
     //permet d'avoir une hauteur de 80% de l'écran
     height: 80vh!important; 
-    //permet d'aligner tout les textes contenus dans la div
-    text-align: center;
     nav{
         position: fixed;
         background-color: rgba($color: #000000, $alpha: 0.0)!important;  
         //enlève la box shadow sur la navbar 
         box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0)!important;
+        z-index: 99999;
         a{
             color: black;
         }
     }
+}
+.header{
+    //permet d'aligner tout les textes contenus dans la div
+    text-align: center;
+    background-color: rgba($color: #000000, $alpha: 0.0)!important; 
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    .myName{
+        margin-top: 15vh; 
+        margin-bottom: 10vh;
+        background-color: rgba($color: #000000, $alpha: 0.0)!important;
+    }
+    .myJob{
+        margin-top: 0vh;
+        background-color: rgba($color: #000000, $alpha: 0.0)!important;
+    }
+}
+.test{
+    background-color: rgba($color: #000000, $alpha: 0.0)!important; 
 }
