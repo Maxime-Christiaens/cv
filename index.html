@@ -16,12 +16,35 @@
 </head>
 
 <body>
-    <div class="parallax-container">
+    <div class="parallax-container" id="top">
         <div class="parallax"><img src="assets/imgs/para2.jpg"></div>
-        <h2>hello there!</h2>
+        <!--Navbar start-->
+        <nav class="white">
+            <div class="nav-wrapper" >
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                <ul class="left hide-on-med-and-down">
+                    <li><a href="#top">Home</a></li>
+                    <li><a href="#">Components</a></li>
+                    <li><a href="#">Javascript</a></li>
+    
+                </ul>
+            </div>
+        </nav>
+        <ul class="sidenav" id="mobile-demo">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Components</a></li>
+            <li><a href="#">Javascript</a></li>
+        </ul>
+        <!--Navbar end-->
+
+        <!--Header Start-->
+        <!--Header end-->
+
     </div>
     <div>
-        <h2>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel nisi recusandae delectus esse quibusdam, similique numquam molestiae, saepe ad eaque architecto voluptate! Quidem, sapiente vitae. Totam, nesciunt saepe! Cum, dolor!</h2>
+        <h2>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel nisi recusandae delectus esse quibusdam,
+            similique numquam molestiae, saepe ad eaque architecto voluptate! Quidem, sapiente vitae. Totam, nesciunt
+            saepe! Cum, dolor!</h2>
     </div>
     <div class="parallax-container">
         <div class="parallax"><img src="assets/imgs/para1.jpg"></div>
@@ -33,4 +56,6 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 <script src="assets/js/button.js"></script>
 <script src="assets/js/parallax.js"></script>
+<script src="assets/js/scrollFixedNav.js"></script>
+
 </html>

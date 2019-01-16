@@ -1,3 +1,15 @@
 .parallax-container{
+    //permet d'avoir une hauteur de 80% de l'écran
     height: 80vh!important; 
+    //permet d'aligner tout les textes contenus dans la div
+    text-align: center;
+    nav{
+        position: fixed;
+        background-color: rgba($color: #000000, $alpha: 0.0)!important;  
+        //enlève la box shadow sur la navbar 
+        box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0)!important;
+        a{
+            color: black;
+        }
+    }
 }

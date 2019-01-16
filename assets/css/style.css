@@ -1,4 +1,16 @@
 .parallax-container {
   height: 80vh !important;
+  text-align: center;
+}
+
+.parallax-container nav {
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0) !important;
+  -webkit-box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0) !important;
+          box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0) !important;
+}
+
+.parallax-container nav a {
+  color: black;
 }
 /*# sourceMappingURL=style.css.map */
