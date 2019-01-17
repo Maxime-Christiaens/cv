@@ -2,6 +2,11 @@
   font-family: 'Montserrat', sans-serif;
 }
 
+.pm0 {
+  padding: 0;
+  margin: 0;
+}
+
 .blurImg {
   -webkit-filter: blur(2.5px);
           filter: blur(2.5px);
@@ -31,17 +36,18 @@
   position: absolute;
   left: 0;
   top: 0;
-  width: 100vw;
+  width: auto;
 }
 
 .header .myName {
-  margin-top: 22vh;
-  margin-bottom: 12vh;
+  margin-top: 20vh;
+  margin-bottom: 18vh;
   background-color: rgba(0, 0, 0, 0) !important;
 }
 
 .header .myName h1 {
   color: black !important;
+  font-size: 10vh;
   font-weight: bold !important;
 }
 
@@ -55,21 +61,25 @@
   font-weight: bold !important;
 }
 
-.carousel-slider .carousel-fixed-item h3 {
+.carouselMainDiv {
+  height: 80vh !important;
+}
+
+.carouselMainDiv .carousel-slider {
+  height: 80vh !important;
+}
+
+.carouselMainDiv .carousel-slider .carousel-fixed-item h3 {
   font-weight: bold;
 }
 
-.carousel-slider .carousel-fixed-item button {
+.carouselMainDiv .carousel-slider .carousel-fixed-item button {
   font-weight: bold;
 }
 
-.carousel-slider .carousel-item {
-  height: 67.1vh !important;
-}
-
-.carousel-slider .carousel-item h2 {
+.carouselMainDiv .carousel-slider .carousel-item h2 {
   font-size: 6vh !important;
   font-weight: bold !important;
-  padding-top: 5vh;
+  padding-top: 3vh !important;
 }
 /*# sourceMappingURL=style.css.map */

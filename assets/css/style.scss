@@ -1,7 +1,11 @@
 *{
     font-family: 'Montserrat', sans-serif;
 }
-
+//reset le padding et le margin
+.pm0{
+    padding: 0;
+    margin: 0;
+}
 .blurImg{
     filter: blur(2.5px);
 }
@@ -30,13 +34,14 @@
     position: absolute;
     left: 0;
     top: 0;
-    width: 100vw;
+    width: auto;
     .myName{
-        margin-top: 22vh; 
-        margin-bottom: 12vh;
+        margin-top: 20vh; 
+        margin-bottom: 18vh;
         background-color: rgba($color: #000000, $alpha: 0.0)!important;
         h1{
             color: black!important;
+            font-size: 10vh;
             font-weight: bold!important;
         }
     }
@@ -50,22 +55,27 @@
     }
 }
 ////Carousel 
-.carousel-slider{
-    .carousel-fixed-item{
-        h3{
-            font-weight: bold;
+.carouselMainDiv{
+    height: 80vh!important;
+    .carousel-slider{
+        height: 80vh!important;
+        .carousel-fixed-item{
+            h3{
+                font-weight: bold;
+            }
+            button{
+                font-weight: bold;
+            }
         }
-        button{
-            font-weight: bold;
-        }
-    }
-    .carousel-item{
-        height: 67.1vh!important;
-        h2{
-            font-size: 6vh!important;
-            font-weight: bold!important;
-            padding-top: 5vh;
+        .carousel-item{
+            h2{
+                font-size: 6vh!important;
+                font-weight: bold!important;
+                padding-top: 3vh!important;
+            }
         }
     }
 }
+
+///footer
 
