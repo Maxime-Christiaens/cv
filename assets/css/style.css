@@ -7,6 +7,10 @@
   margin: 0;
 }
 
+.bold {
+  font-weight: bold !important;
+}
+
 .blurImg {
   -webkit-filter: blur(2.5px);
           filter: blur(2.5px);
@@ -31,17 +35,17 @@
 }
 
 .header {
-  text-align: center;
+  text-align: center !important;
   background-color: rgba(0, 0, 0, 0) !important;
   position: absolute;
   left: 0;
   top: 0;
-  width: auto;
+  width: 100vw !important;
 }
 
 .header .myName {
   margin-top: 20vh;
-  margin-bottom: 18vh;
+  margin-bottom: 20vh;
   background-color: rgba(0, 0, 0, 0) !important;
 }
 
@@ -52,7 +56,7 @@
 }
 
 .header .myJob {
-  margin-top: 0vh;
+  margin-top: 5vh;
   background-color: rgba(0, 0, 0, 0) !important;
 }
 
