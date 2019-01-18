@@ -6,6 +6,9 @@
     padding: 0;
     margin: 0;
 }
+.left-text{
+    text-align: left;
+}
 .bold{
     font-weight: bold!important;
 }
@@ -39,7 +42,7 @@
     top: 0;
     width: 100vw!important;
     .myName{
-        margin-top: 20vh; 
+        margin-top: 25vh; 
         margin-bottom: 20vh;
         background-color: rgba($color: #000000, $alpha: 0.0)!important;
         h1{
@@ -77,8 +80,16 @@
                 padding-top: 3vh!important;
             }
         }
+        .slide1{
+            margin-top: 5vh;
+        }
     }
 }
-
 ///footer
-
+.page-footer{
+    .footer-copyright{
+        a{
+            text-decoration: none;
+        }
+    }
+}

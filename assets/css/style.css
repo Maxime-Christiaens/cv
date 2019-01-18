@@ -7,6 +7,10 @@
   margin: 0;
 }
 
+.left-text {
+  text-align: left;
+}
+
 .bold {
   font-weight: bold !important;
 }
@@ -44,7 +48,7 @@
 }
 
 .header .myName {
-  margin-top: 20vh;
+  margin-top: 25vh;
   margin-bottom: 20vh;
   background-color: rgba(0, 0, 0, 0) !important;
 }
@@ -85,5 +89,13 @@
   font-size: 6vh !important;
   font-weight: bold !important;
   padding-top: 3vh !important;
+}
+
+.carouselMainDiv .carousel-slider .slide1 {
+  margin-top: 5vh;
+}
+
+.page-footer .footer-copyright a {
+  text-decoration: none;
 }
 /*# sourceMappingURL=style.css.map */
