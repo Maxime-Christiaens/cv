@@ -225,6 +225,6 @@
 }
 
 .page-footer .footer-copyright a {
-  text-decoration: none;
+  text-decoration: none !important;
 }
 /*# sourceMappingURL=style.css.map */
