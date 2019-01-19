@@ -6,8 +6,12 @@
     padding: 0;
     margin: 0;
 }
+//Class pour modifier la position des textes
 .left-text{
     text-align: left;
+}
+.center-text{
+    text-align: center;
 }
 .bold{
     font-weight: bold!important;
@@ -19,6 +23,9 @@
 .parallax-container{
     //permet d'avoir une hauteur de 80% de l'écran
     height: 80vh!important; 
+    @media screen and (min-width: 100px) and (max-width: 600px){
+        height: 71vh!important; 
+    }
     nav{
         position: fixed;
         background-color: rgba($color: #000000, $alpha: 0.0)!important;  
@@ -45,19 +52,31 @@
         margin-top: 25vh; 
         margin-bottom: 20vh;
         background-color: rgba($color: #000000, $alpha: 0.0)!important;
+        @media screen and (min-width: 100px) and (max-width: 600px){
+            margin-top: 20vh;
+            margin-bottom: 15vh;
+        }
         h1{
             color: black!important;
             font-size: 10vh;
             font-weight: bold!important;
-            
+            @media screen and (min-width: 100px) and (max-width: 600px){
+                font-size: 7vh;
+            }       
         }
     }
     .myJob{
         margin-top: 5vh;
         background-color: rgba($color: #000000, $alpha: 0.0)!important;
+        @media screen and (min-width: 100px) and (max-width: 600px){
+            margin-top: 0vh;
+        }
         h2{
             color: black!important;
             font-weight: bold!important;
+            @media screen and (min-width: 100px) and (max-width: 600px){
+                font-size: 5vh;
+            }
         }
     }
 }
@@ -67,28 +86,66 @@
     .carousel-slider{
         height: 80vh!important;
         .carousel-fixed-item{
+            @media screen and (min-width: 100px) and (max-width: 600px){
+                margin-bottom: 0;
+            }
             h3{
                 font-weight: bold;
+                @media screen and (min-width: 100px) and (max-width: 600px){
+                    font-size: 2.5vh;
+                }
             }
             button{
                 font-weight: bold;
+                @media screen and (min-width: 100px) and (max-width: 600px){
+                    font-size: 1.7vh;
+                }
             }
         }
         .carousel-item{
+            //correspond au titre des slide du carousel (formation, expérience, ect...)
             h2{
                 font-size: 6vh!important;
                 font-weight: bold!important;
                 padding-top: 3vh!important;
+                @media screen and (min-width: 100px) and (max-width: 600px){
+                    font-size: 3.9vh!important;
+                    padding-top: 1.5vh!important;
+                    margin-bottom: 0;
+                    margin-top: 0;
+                }
             }
+            //correspond au titre de mes exps perso ect...
+            h3{
+                @media screen and (min-width: 100px) and (max-width: 600px){
+                    font-size: 2.8vh!important;
+                    padding-top: 1vh!important;
+                    margin-bottom: 0;
+                    margin-top: 0;
+                }
+            }
+            h5{
+                @media screen and (min-width: 100px) and (max-width: 600px){
+                    font-size: 1.8vh!important;
+                    padding-top: 1vh!important;
+                    margin-bottom: 0;
+                    margin-top: 0;
+                }
+            }
+
         }
         .slide{
             margin-top: 5vh;
+            @media screen and (min-width: 100px) and (max-width: 600px){
+                margin-top: 2vh;
+            }
         }
     }
 }
 ///footer
 .page-footer{
     .footer-copyright{
+        padding: 0;
         a{
             text-decoration: none;
         }

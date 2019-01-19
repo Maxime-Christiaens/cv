@@ -11,6 +11,10 @@
   text-align: left;
 }
 
+.center-text {
+  text-align: center;
+}
+
 .bold {
   font-weight: bold !important;
 }
@@ -22,6 +26,12 @@
 
 .parallax-container {
   height: 80vh !important;
+}
+
+@media screen and (min-width: 100px) and (max-width: 600px) {
+  .parallax-container {
+    height: 71vh !important;
+  }
 }
 
 .parallax-container nav {
@@ -53,10 +63,23 @@
   background-color: rgba(0, 0, 0, 0) !important;
 }
 
+@media screen and (min-width: 100px) and (max-width: 600px) {
+  .header .myName {
+    margin-top: 20vh;
+    margin-bottom: 15vh;
+  }
+}
+
 .header .myName h1 {
   color: black !important;
   font-size: 10vh;
   font-weight: bold !important;
+}
+
+@media screen and (min-width: 100px) and (max-width: 600px) {
+  .header .myName h1 {
+    font-size: 7vh;
+  }
 }
 
 .header .myJob {
@@ -64,9 +87,21 @@
   background-color: rgba(0, 0, 0, 0) !important;
 }
 
+@media screen and (min-width: 100px) and (max-width: 600px) {
+  .header .myJob {
+    margin-top: 0vh;
+  }
+}
+
 .header .myJob h2 {
   color: black !important;
   font-weight: bold !important;
+}
+
+@media screen and (min-width: 100px) and (max-width: 600px) {
+  .header .myJob h2 {
+    font-size: 5vh;
+  }
 }
 
 .carouselMainDiv {
@@ -77,12 +112,30 @@
   height: 80vh !important;
 }
 
+@media screen and (min-width: 100px) and (max-width: 600px) {
+  .carouselMainDiv .carousel-slider .carousel-fixed-item {
+    margin-bottom: 0;
+  }
+}
+
 .carouselMainDiv .carousel-slider .carousel-fixed-item h3 {
   font-weight: bold;
 }
 
+@media screen and (min-width: 100px) and (max-width: 600px) {
+  .carouselMainDiv .carousel-slider .carousel-fixed-item h3 {
+    font-size: 2.5vh;
+  }
+}
+
 .carouselMainDiv .carousel-slider .carousel-fixed-item button {
   font-weight: bold;
+}
+
+@media screen and (min-width: 100px) and (max-width: 600px) {
+  .carouselMainDiv .carousel-slider .carousel-fixed-item button {
+    font-size: 1.7vh;
+  }
 }
 
 .carouselMainDiv .carousel-slider .carousel-item h2 {
@@ -91,8 +144,45 @@
   padding-top: 3vh !important;
 }
 
+@media screen and (min-width: 100px) and (max-width: 600px) {
+  .carouselMainDiv .carousel-slider .carousel-item h2 {
+    font-size: 3.9vh !important;
+    padding-top: 1.5vh !important;
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+}
+
+@media screen and (min-width: 100px) and (max-width: 600px) {
+  .carouselMainDiv .carousel-slider .carousel-item h3 {
+    font-size: 2.8vh !important;
+    padding-top: 1vh !important;
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+}
+
+@media screen and (min-width: 100px) and (max-width: 600px) {
+  .carouselMainDiv .carousel-slider .carousel-item h5 {
+    font-size: 1.8vh !important;
+    padding-top: 1vh !important;
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+}
+
 .carouselMainDiv .carousel-slider .slide {
   margin-top: 5vh;
+}
+
+@media screen and (min-width: 100px) and (max-width: 600px) {
+  .carouselMainDiv .carousel-slider .slide {
+    margin-top: 2vh;
+  }
+}
+
+.page-footer .footer-copyright {
+  padding: 0;
 }
 
 .page-footer .footer-copyright a {
