@@ -1,10 +1,13 @@
 *{
     font-family: 'Montserrat', sans-serif;
 }
+body{
+    overflow-x: hidden!important;
+}
 //reset le padding et le margin
 .pm0{
-    padding: 0;
-    margin: 0;
+    padding: 0!important;
+    margin: 0!important;
 }
 //Class pour modifier la position des textes
 .left-text{
@@ -19,7 +22,12 @@
 .blurImg{
     filter: blur(2.5px);
 }
-
+.none{
+    display: none;
+}
+.trans{
+    background-color: rgba($color: #000000, $alpha: 0.0)!important;
+}
 .parallax-container{
     //permet d'avoir une hauteur de 80% de l'écran
     height: 80vh!important; 
@@ -36,6 +44,16 @@
             color: white;
             font-weight: bold;
             font-size: 2vh;
+        }
+        .hide-on-med-and-down{
+            a{
+                background-color: rgba($color: #111010, $alpha: 0.5);
+                //border: 2px solid black;
+                //border-radius: 50%;
+                &:hover{
+                    background-color: rgba($color: #111010, $alpha: 0.2);
+                }
+            }
         }
     }
 }
@@ -82,9 +100,15 @@
 }
 ////Carousel 
 .carouselMainDiv{
-    height: 80vh!important;
-    .carousel-slider{
+    height: 82vh!important;
+    @media screen and (min-width: 100px) and (max-width: 600px){
         height: 80vh!important;
+    }
+    .carousel-slider{
+        height: 82vh!important;
+        @media screen and (min-width: 100px) and (max-width: 600px){
+            height: 80vh!important;
+        }
         .carousel-fixed-item{
             @media screen and (min-width: 100px) and (max-width: 600px){
                 margin-bottom: 0;
@@ -110,6 +134,11 @@
         }
         .carousel-item{
             //correspond au titre des slide du carousel (formation, expérience, ect...)
+            a{
+                &:hover{
+                    color: #e0e0e0!important;
+                }
+            }
             h2{
                 font-size: 6vh!important;
                 font-weight: bold!important;
@@ -144,7 +173,7 @@
             }
             h5{
                 @media screen and (min-width: 100px) and (max-width: 600px){
-                    font-size: 1.8vh!important;
+                    font-size: 2.05vh!important;
                     padding-top: 1vh!important;
                     margin-bottom: 0;
                     margin-top: 0;
@@ -168,10 +197,25 @@
 }
 ///footer
 .page-footer{
+    a{
+        &:hover{
+            color: #90caf9!important;
+        }
+    }
+    .valign-wrapper{
+        a{
+            &:hover{
+                color: #90caf9!important;
+            }
+        }
+    }
     .footer-copyright{
         padding: 0;
         a{
             text-decoration: none!important;
+            &:hover{
+                color: #90caf9!important;
+            }
         }
     }
 }

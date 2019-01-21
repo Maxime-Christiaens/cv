@@ -25,17 +25,17 @@
             <div class="nav-wrapper">
                 <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="black-text material-icons">menu</i></a>
                 <ul class="left hide-on-med-and-down">
-                    <li><a href="#top">Home</a></li>
-                    <li><a href="#profil">Profil</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li><a class="nav-link" href="#top">Home</a></li>
+                    <li><a class="nav-link" href="#profil">Profil</a></li>
+                    <li><a class="nav-link" href="#contact">Contact</a></li>
                 </ul>
             </div>
         </nav>
         <ul class="sidenav" id="mobile-demo">
             <li><a href="#"></a></li>
-            <li><a href="#top">Home</a></li>
-            <li><a href="#profil">Profil</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a class="nav-link" href="#top">Home</a></li>
+            <li><a class="nav-link" href="#profil">Profil</a></li>
+            <li><a class="nav-link" href="#contact">Contact</a></li>
         </ul>
         <!--Navbar end-->
     </div>
@@ -55,15 +55,17 @@
         <div class="carousel carousel-slider center row">
             <div class="carousel-fixed-item center row">
                 <h3 class="white-text darken-1">En recherche d'un stage</h3>
-                <button class="btn waves-effect white black-text">
-                    Contactez-moi
-                </button>
+                <a class="trans pm0 btn tooltipped" data-position="bottom" data-tooltip="N'hésitez pas !" href="mailto:maxime.ad.christiaens@gmail.com">
+                    <button class="btn waves-effect white black-text">
+                        Contactez-moi 
+                    </button>
+                </a>     
             </div>
             <div class="carousel-item red darken-2 white-text row" href="#one!">
                 <h2>Formation</h2>
                 <div class="col m10 push-m1 col s12 slide">
                     <div class="formation-1 row col l4 col m6 left-align pm0 left-text">
-                        <h3 class="bold">Web Déveloper Junior</h3>
+                        <h3 class="bold">Web Developer Junior</h3>
                         <h5 class="grey-text lighten-2">Septembre 2018 - Mars 2019 (en cours), <a class="black-text darken-3" href="https://becode.org/index_fr.html">Becode.org</a> à Charleroi</h5>
                         <h5>Formation centré sur les technologies du web : Html, Css, JavaScript, PHP, Wordpress, Mysql & framework</h5>
                     </div>
@@ -71,13 +73,12 @@
                         <h3 class="bold">Big Data Consultant</h3>
                         <h5 class="grey-text lighten-2">Novembre 2017 - Décembre 2017, <a href="http://www.technofuturtic.be/" class="black-text">technofuturTIC</a></h5>
                         <h5>Initiation au python </h5>
-                        <h5>Initiation à des méthodes d'analyses de données</h5>   
-                        
+                        <h5>Initiation à des méthodes d'analyses de données</h5>    
                     </div>
                     <div class="formation-1 row col l4 col m12 left-align pm0 left-text">
                         <h3 class="bold">Master en Neuropsychologie</h3>
                         <h5 class="grey-text lighten-2">2015 - 2017, <a class="black-text" href="https://uclouvain.be/fr/index.html">UCLouvain</a> à Charleroi</h5>
-                        <h5></h5>
+                        <h5>Stage en recherche de 600 heures</h5>
                     </div>
                 </div>
             </div>
@@ -86,31 +87,28 @@
                 <div class="col m10 push-m1 slide">
                     <div class="formation-1 row col l6 col m12 left-align pm0 left-text">
                         <h3 class="bold">Vendeur de combustibles</h3>
-                        <h5 class="grey-text lighten-2"> Janvier 2018 - Mars 2018 <a class="black-text darken-3" href="https://becode.org/index_fr.html">Chauffage Demulier</a> à Manage</h5>
+                        <h5 class="grey-text"> Janvier 2018 - Mars 2018 <a class="black-text darken-3" href="https://becode.org/index_fr.html">Chauffage Demulier</a> à Manage</h5>
                         <h5>Service des clients</h5>
                         <h5>Encodage des commandes</h5>
                         <h5>Gestion de la caisse enregistreuse</h5>
                     </div>
                     <div class="formation-1 row col l6 col m12 left-align pm0 left-text">
                         <h3 class="bold">Stage dans le domaine de la recherche</h3>
-                        <h5 class="grey-text lighten-2"> Février - Juin 2016 ,<a href="https://uclep.be/" class="black-text">LEP</a></h5>
+                        <h5 class="grey-text"> Février - Juin 2016 ,<a href="https://uclep.be/" class="black-text">LEP</a></h5>
                         <h5>Assistance à la passation d'épreuve dans le cadre de recherche sur l'utilisation excessive des jeux vidéo</h5>
                         <h5>Revu de la littérature</h5>    
                     </div>
                 </div>
             </div>
-            <div class="carousel-item purple darken-1 white-text" href="#three!">
+            <div class="carousel-item purple darken-2 white-text" href="#three!">
                 <h2>Technologies</h2>       
-            </div>
-            <div class="carousel-item amber darken-1 white-text" href="#four!">
-                <h2>Badges Becode</h2>
             </div>
         </div>
     </div>
     <footer class="page-footer grey darken-2">
         <div class="container">
             <div class="row">
-                <div class="col l6 s12 contact">
+                <div class="col l6 s12 contact" id="contact">
                     <h5 class="white-text">Contactez-moi</h5>
                     <div class="valign-wrapper center-align">
                         <p>
@@ -121,20 +119,20 @@
                         </p>
                     </div>
                     <div class="valign-wrapper center-align">
-                        <p>
+                        <a class="white-text" href="maxime.ad.christiaens@gmail.com">
                             <i class="material-icons">
                                 email
                             </i>
                             maxime.christiaens@gmail.com
-                        </p>
+                        </a>
                     </div>
                 </div>
-                <div class="col l4 offset-l2 s12">
+                <div class="col l4 offset-l2 s12 footer-link">
                     <h5 class="white-text">Menu</h5>
                     <ul>
-                        <li><a class="grey-text text-lighten-3" href="#top">Home</a></li>
-                        <li><a class="grey-text text-lighten-3" href="#profil">Profile</a></li>
-                        <li><a class="grey-text text-lighten-3" href="#contact">Contact</a></li>
+                        <li><a class="nav-link grey-text text-lighten-3" href="#top">Home</a></li>
+                        <li><a class="nav-link grey-text text-lighten-3" href="#profil">Profile</a></li>
+                        <li><a class="nav-link grey-text text-lighten-3" href="#contact">Contact</a></li>
                     </ul>
                 </div>
             </div>
@@ -146,6 +144,7 @@
             </div>
         </div>
     </footer>
+    <script src="assets/js/smooth.js"></script>
 </body>
 <!-- JQuery -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -156,4 +155,6 @@
 <script src="assets/js/parallax.js"></script>
 <script src="assets/js/scrollFixedNav.js"></script>
 <script src="assets/js/featureDiscovery.js"></script>
+<script src="assets/js/ToolTips.js"></script>
+
 </html>

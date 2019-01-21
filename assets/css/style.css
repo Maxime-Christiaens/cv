@@ -2,9 +2,13 @@
   font-family: 'Montserrat', sans-serif;
 }
 
+body {
+  overflow-x: hidden !important;
+}
+
 .pm0 {
-  padding: 0;
-  margin: 0;
+  padding: 0 !important;
+  margin: 0 !important;
 }
 
 .left-text {
@@ -22,6 +26,14 @@
 .blurImg {
   -webkit-filter: blur(2.5px);
           filter: blur(2.5px);
+}
+
+.none {
+  display: none;
+}
+
+.trans {
+  background-color: rgba(0, 0, 0, 0) !important;
 }
 
 .parallax-container {
@@ -46,6 +58,14 @@
   color: white;
   font-weight: bold;
   font-size: 2vh;
+}
+
+.parallax-container nav .hide-on-med-and-down a {
+  background-color: rgba(17, 16, 16, 0.5);
+}
+
+.parallax-container nav .hide-on-med-and-down a:hover {
+  background-color: rgba(17, 16, 16, 0.2);
 }
 
 .header {
@@ -105,11 +125,23 @@
 }
 
 .carouselMainDiv {
-  height: 80vh !important;
+  height: 82vh !important;
+}
+
+@media screen and (min-width: 100px) and (max-width: 600px) {
+  .carouselMainDiv {
+    height: 80vh !important;
+  }
 }
 
 .carouselMainDiv .carousel-slider {
-  height: 80vh !important;
+  height: 82vh !important;
+}
+
+@media screen and (min-width: 100px) and (max-width: 600px) {
+  .carouselMainDiv .carousel-slider {
+    height: 80vh !important;
+  }
 }
 
 @media screen and (min-width: 100px) and (max-width: 600px) {
@@ -148,6 +180,10 @@
   .carouselMainDiv .carousel-slider .carousel-fixed-item button {
     font-size: 2.5vh;
   }
+}
+
+.carouselMainDiv .carousel-slider .carousel-item a:hover {
+  color: #e0e0e0 !important;
 }
 
 .carouselMainDiv .carousel-slider .carousel-item h2 {
@@ -194,7 +230,7 @@
 
 @media screen and (min-width: 100px) and (max-width: 600px) {
   .carouselMainDiv .carousel-slider .carousel-item h5 {
-    font-size: 1.8vh !important;
+    font-size: 2.05vh !important;
     padding-top: 1vh !important;
     margin-bottom: 0;
     margin-top: 0;
@@ -220,11 +256,23 @@
   }
 }
 
+.page-footer a:hover {
+  color: #90caf9 !important;
+}
+
+.page-footer .valign-wrapper a:hover {
+  color: #90caf9 !important;
+}
+
 .page-footer .footer-copyright {
   padding: 0;
 }
 
 .page-footer .footer-copyright a {
   text-decoration: none !important;
+}
+
+.page-footer .footer-copyright a:hover {
+  color: #90caf9 !important;
 }
 /*# sourceMappingURL=style.css.map */
