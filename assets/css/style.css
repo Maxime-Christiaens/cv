@@ -41,6 +41,10 @@ body {
   background-color: rgba(0, 0, 0, 0) !important;
 }
 
+.gris {
+  color: #dad8d8;
+}
+
 .parallax-container {
   height: 80vh !important;
 }
