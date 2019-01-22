@@ -11,6 +11,11 @@ body {
   margin: 0 !important;
 }
 
+.noShadow {
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+
 .left-text {
   text-align: left;
 }
@@ -254,6 +259,19 @@ body {
   .carouselMainDiv .carousel-slider .slide {
     margin-top: 2vh;
   }
+}
+
+.carouselMainDiv .carousel-slider .techno .iconeDiv {
+  height: 15vh !important;
+  margin-top: 5vh !important;
+}
+
+.carouselMainDiv .carousel-slider .techno .iconeDiv .iconeSize {
+  font-size: 15vh;
+}
+
+.carouselMainDiv .carousel-slider .techno .iconeDiv .iconeSize:hover {
+  color: rgba(255, 255, 255, 0.5);
 }
 
 .page-footer a:hover {

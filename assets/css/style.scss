@@ -9,6 +9,10 @@ body{
     padding: 0!important;
     margin: 0!important;
 }
+//reset shadow 
+.noShadow{
+    box-shadow: none!important;
+}
 //Class pour modifier la position des textes
 .left-text{
     text-align: left;
@@ -191,6 +195,18 @@ body{
             margin-top: 5vh;
             @media screen and (min-width: 100px) and (max-width: 600px){
                 margin-top: 2vh;
+            }
+        }
+        .techno{
+            .iconeDiv{
+                height: 15vh!important;
+                margin-top: 5vh!important;
+                .iconeSize{
+                    font-size: 15vh;
+                    &:hover{
+                        color: rgba($color: #ffffff, $alpha: 0.5);
+                    }
+                }
             }
         }
     }
