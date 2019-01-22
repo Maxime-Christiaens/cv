@@ -160,6 +160,7 @@ body {
 }
 
 .carouselMainDiv .carousel-slider .carousel-fixed-item h3 {
+  font-size: 4.2vh;
   font-weight: bold;
 }
 
@@ -176,6 +177,7 @@ body {
 }
 
 .carouselMainDiv .carousel-slider .carousel-fixed-item a {
+  font-size: 2.4vh;
   font-weight: bold;
   padding: 0 1vw 0 1vw !important;
 }
@@ -224,6 +226,10 @@ body {
   }
 }
 
+.carouselMainDiv .carousel-slider .carousel-item h3 {
+  font-size: 4.4vh !important;
+}
+
 @media screen and (min-width: 100px) and (max-width: 600px) {
   .carouselMainDiv .carousel-slider .carousel-item h3 {
     font-size: 2.8vh !important;
@@ -240,6 +246,10 @@ body {
     margin-bottom: 0;
     margin-top: 0;
   }
+}
+
+.carouselMainDiv .carousel-slider .carousel-item h5 {
+  font-size: 2.6vh !important;
 }
 
 @media screen and (min-width: 100px) and (max-width: 600px) {

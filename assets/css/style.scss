@@ -121,6 +121,7 @@ body{
                 margin-bottom: 0;
             }
             h3{
+                font-size: 4.2vh;
                 font-weight: bold;
                 @media screen and (min-width: 100px) and (max-width: 600px){
                     font-size: 2.5vh;
@@ -130,6 +131,7 @@ body{
                 }
             }
             a{
+                font-size: 2.4vh;
                 font-weight: bold;
                 padding: 0 1vw 0 1vw!important;
                 &:hover{
@@ -169,6 +171,7 @@ body{
             }
             //correspond au titre de mes exps perso ect...
             h3{
+                font-size: 4.4vh!important;
                 @media screen and (min-width: 100px) and (max-width: 600px){
                     font-size: 2.8vh!important;
                     padding-top: 1vh!important;
@@ -183,6 +186,7 @@ body{
                 }
             }
             h5{
+                font-size: 2.6vh!important;
                 @media screen and (min-width: 100px) and (max-width: 600px){
                     font-size: 2.05vh!important;
                     padding-top: 1vh!important;
