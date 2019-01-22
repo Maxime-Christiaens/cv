@@ -2,4 +2,6 @@
 
 Site personnel créer avec le framework [materializecss](https://materializecss.com/).
 
-[Pour le visualiser](https://maxime-christiaens.github.io/cv/).
+Il contient les informations principales de mon curriculum vitæ.
+
+[Pour le visualiser](https://maxime-christiaens.github.io/cv/)
