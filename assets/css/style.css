@@ -171,18 +171,23 @@ body {
   }
 }
 
-.carouselMainDiv .carousel-slider .carousel-fixed-item button {
+.carouselMainDiv .carousel-slider .carousel-fixed-item a {
   font-weight: bold;
+  padding: 0 1vw 0 1vw !important;
+}
+
+.carouselMainDiv .carousel-slider .carousel-fixed-item a:hover {
+  background-color: rgba(255, 255, 255, 0.8) !important;
 }
 
 @media screen and (min-width: 100px) and (max-width: 600px) {
-  .carouselMainDiv .carousel-slider .carousel-fixed-item button {
+  .carouselMainDiv .carousel-slider .carousel-fixed-item a {
     font-size: 1.7vh;
   }
 }
 
 @media screen and (min-width: 601px) and (max-width: 992px) {
-  .carouselMainDiv .carousel-slider .carousel-fixed-item button {
+  .carouselMainDiv .carousel-slider .carousel-fixed-item a {
     font-size: 2.5vh;
   }
 }
