@@ -134,7 +134,7 @@ body {
 }
 
 .carouselMainDiv {
-  height: 82vh !important;
+  height: 82.2vh !important;
 }
 
 @media screen and (min-width: 100px) and (max-width: 600px) {
@@ -144,7 +144,7 @@ body {
 }
 
 .carouselMainDiv .carousel-slider {
-  height: 82vh !important;
+  height: 82.2vh !important;
 }
 
 @media screen and (min-width: 100px) and (max-width: 600px) {
