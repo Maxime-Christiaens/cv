@@ -24,6 +24,10 @@ body {
   text-align: center;
 }
 
+.italic {
+  font-style: italic;
+}
+
 .bold {
   font-weight: bold !important;
 }
@@ -291,6 +295,28 @@ body {
 
 .carouselMainDiv .carousel-slider .techno .iconeDiv .iconeSize:hover {
   color: rgba(255, 255, 255, 0.5);
+}
+
+.followMe {
+  height: 35vh;
+}
+
+.followMe .divy {
+  margin-top: 2vh;
+}
+
+.followMe .divy a {
+  text-decoration: none;
+  color: black !important;
+  height: 17vh;
+}
+
+.followMe .divy i {
+  font-size: 17vh;
+}
+
+.followMe .divy i:hover {
+  opacity: 0.5;
 }
 
 .page-footer a:hover {

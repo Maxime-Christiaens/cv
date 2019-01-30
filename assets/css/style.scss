@@ -20,6 +20,9 @@ body{
 .center-text{
     text-align: center;
 }
+.italic{
+    font-style: italic;
+}
 .bold{
     font-weight: bold!important;
 }
@@ -220,6 +223,25 @@ body{
                 }
             }
         }
+    }
+}
+//followMe
+.followMe{
+    height: 35vh;
+    .divy{
+        margin-top: 2vh;
+        a{
+            text-decoration: none;
+            color: black!important;
+            height: 17vh;
+            }
+            i{
+                font-size: 17vh;
+                &:hover{
+                    opacity: 0.5;
+            }
+        }
+
     }
 }
 ///footer
