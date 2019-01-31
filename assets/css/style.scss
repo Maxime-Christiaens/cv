@@ -228,7 +228,24 @@ body{
 //followMe
 .followMe{
     height: 35vh;
-    .divy{
+    @media screen and (min-width: 100px) and (max-width: 600px){
+        height: 28vh;
+    }
+        h3{
+            font-size: 4.4vh!important;
+            margin-bottom: 2.5vh!important;
+            margin-top: 3vh!important;
+            @media screen and (min-width: 100px) and (max-width: 600px){
+                font-size: 2.8vh!important;
+                margin-bottom: 2.5vh!important;
+                margin-top: 2.5vh!important;
+            }
+            @media screen and (min-width: 601px) and (max-width: 992px){
+                font-size: 3.3vh!important; 
+                margin-bottom: 2.5vh!important;
+                margin-top: 2.5vh!important;
+            }
+        }
         margin-top: 2vh;
         a{
             text-decoration: none;
@@ -237,12 +254,14 @@ body{
             }
             i{
                 font-size: 17vh;
+                color: black;
+                @media screen and (min-width: 100px) and (max-width: 600px){
+                    font-size: 15vh;
+                }
                 &:hover{
                     opacity: 0.5;
             }
         }
-
-    }
 }
 ///footer
 .page-footer{

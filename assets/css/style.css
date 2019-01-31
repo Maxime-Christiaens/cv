@@ -299,23 +299,55 @@ body {
 
 .followMe {
   height: 35vh;
-}
-
-.followMe .divy {
   margin-top: 2vh;
 }
 
-.followMe .divy a {
+@media screen and (min-width: 100px) and (max-width: 600px) {
+  .followMe {
+    height: 28vh;
+  }
+}
+
+.followMe h3 {
+  font-size: 4.4vh !important;
+  margin-bottom: 2.5vh !important;
+  margin-top: 3vh !important;
+}
+
+@media screen and (min-width: 100px) and (max-width: 600px) {
+  .followMe h3 {
+    font-size: 2.8vh !important;
+    margin-bottom: 2.5vh !important;
+    margin-top: 2.5vh !important;
+  }
+}
+
+@media screen and (min-width: 601px) and (max-width: 992px) {
+  .followMe h3 {
+    font-size: 3.3vh !important;
+    margin-bottom: 2.5vh !important;
+    margin-top: 2.5vh !important;
+  }
+}
+
+.followMe a {
   text-decoration: none;
   color: black !important;
   height: 17vh;
 }
 
-.followMe .divy i {
+.followMe i {
   font-size: 17vh;
+  color: black;
 }
 
-.followMe .divy i:hover {
+@media screen and (min-width: 100px) and (max-width: 600px) {
+  .followMe i {
+    font-size: 15vh;
+  }
+}
+
+.followMe i:hover {
   opacity: 0.5;
 }
 
